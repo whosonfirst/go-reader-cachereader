@@ -5,7 +5,7 @@ import (
 	"errors"
 	"github.com/whosonfirst/go-cache"
 	"github.com/whosonfirst/go-reader"
-	"github.com/whosonfirst/go-reader/ioutil"
+	"github.com/whosonfirst/go-ioutil"
 	"io"
 	"net/url"
 )
