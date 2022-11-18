@@ -28,12 +28,14 @@ func main(){
 	cache_uri := "gocache://"
 
 	cr_uri := fmt.Sprintf("cachereader://?reader=%s&cache=%s", reader_uri, cache_uri)
-
+	
 	r, _ := reader.NewReader(ctx, cr_uri)
 
+	path := "101736545.geojson"
+	
 	for i := 0; i < 3; i++ {
 
-		fh, _ := r.Read(ctx, "101736545.geojson")
+		fh, _ := r.Read(ctx, path)
 		defer fh.Close()
 
 		io.Copy(ioutil.Discard, fh)
