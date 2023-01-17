@@ -1,6 +1,12 @@
 # github.com/aaronland/go-roster v1.0.0
 ## explicit; go 1.16
 github.com/aaronland/go-roster
+# github.com/hashicorp/errwrap v1.0.0
+## explicit
+github.com/hashicorp/errwrap
+# github.com/hashicorp/go-multierror v1.1.1
+## explicit; go 1.13
+github.com/hashicorp/go-multierror
 # github.com/patrickmn/go-cache v2.1.0+incompatible
 ## explicit
 github.com/patrickmn/go-cache
@@ -10,6 +16,6 @@ github.com/whosonfirst/go-cache
 # github.com/whosonfirst/go-ioutil v1.0.2
 ## explicit; go 1.16
 github.com/whosonfirst/go-ioutil
-# github.com/whosonfirst/go-reader v1.0.1
-## explicit; go 1.16
+# github.com/whosonfirst/go-reader v1.0.2
+## explicit; go 1.18
 github.com/whosonfirst/go-reader
