@@ -1,6 +1,6 @@
 module github.com/whosonfirst/go-reader-cachereader
 
-go 1.18
+go 1.22
 
 require (
 	github.com/whosonfirst/go-cache v0.5.2
