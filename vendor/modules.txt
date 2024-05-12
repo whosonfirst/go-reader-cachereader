@@ -10,8 +10,8 @@ github.com/hashicorp/go-multierror
 # github.com/patrickmn/go-cache v2.1.0+incompatible
 ## explicit
 github.com/patrickmn/go-cache
-# github.com/whosonfirst/go-cache v0.5.2
-## explicit; go 1.18
+# github.com/whosonfirst/go-cache v0.5.3
+## explicit; go 1.22
 github.com/whosonfirst/go-cache
 # github.com/whosonfirst/go-ioutil v1.0.2
 ## explicit; go 1.16

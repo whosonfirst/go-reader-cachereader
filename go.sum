@@ -6,8 +6,8 @@ github.com/hashicorp/go-multierror v1.1.1 h1:H5DkEtf6CXdFp0N0Em5UCwQpXMWke8IA0+l
 github.com/hashicorp/go-multierror v1.1.1/go.mod h1:iw975J/qwKPdAO1clOe2L8331t/9/fmwbPZ6JB6eMoM=
 github.com/patrickmn/go-cache v2.1.0+incompatible h1:HRMgzkcYKYpi3C8ajMPV8OFXaaRUnok+kx1WdO15EQc=
 github.com/patrickmn/go-cache v2.1.0+incompatible/go.mod h1:3Qf8kWWT7OJRJbdiICTKqZju1ZixQ/KpMGzzAfe6+WQ=
-github.com/whosonfirst/go-cache v0.5.2 h1:mu2aAE7FjouIHyH4pz8yzDVi1/RxQ5UdP35IzwiJZu8=
-github.com/whosonfirst/go-cache v0.5.2/go.mod h1:HOaSiRd1DLUfIDQd9TMNhPfBIV/eoD1W2E9xzfmpW2o=
+github.com/whosonfirst/go-cache v0.5.3 h1:1onzhg7pFFEDoHdoKPQofNBZtz62cKUv8JSwZ5xePUA=
+github.com/whosonfirst/go-cache v0.5.3/go.mod h1:8y+lZUKB5lbPPGTU8//1OjycyB797Cb5XMC9yuSx1eM=
 github.com/whosonfirst/go-ioutil v1.0.2 h1:+GJPfa42OFn5A+5yJSc5jQTQIkNV3/MhYyg4pavdrC8=
 github.com/whosonfirst/go-ioutil v1.0.2/go.mod h1:2dS1vWdAIkiHDvDF8fYyjv6k2NISmwaIjJJeEDBEdvg=
 github.com/whosonfirst/go-reader v1.0.2 h1:eccnKKSMGR+X1SJyHUZN0/7qE7VbFQULqSVQU0Su3xs=
