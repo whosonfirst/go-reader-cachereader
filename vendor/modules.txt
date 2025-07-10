@@ -1,4 +1,3 @@
-## workspace
 # github.com/aaronland/go-roster v1.0.0
 ## explicit; go 1.16
 github.com/aaronland/go-roster
@@ -20,8 +19,10 @@ github.com/whosonfirst/go-cache
 # github.com/whosonfirst/go-ioutil v1.0.2
 ## explicit; go 1.16
 github.com/whosonfirst/go-ioutil
-# github.com/whosonfirst/go-reader v1.1.0
+# github.com/whosonfirst/go-reader/v2 v2.0.0
 ## explicit; go 1.22
+github.com/whosonfirst/go-reader/v2
+github.com/whosonfirst/go-reader/v2/app/read
 # github.com/whosonfirst/go-whosonfirst-sources v0.1.0
 ## explicit; go 1.12
 github.com/whosonfirst/go-whosonfirst-sources
