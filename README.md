@@ -14,10 +14,12 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/whosonfirst/go-reader"
-	"github.com/whosonfirst/go-reader-cachereader"	
 	"io/ioutil"
 	"log"
+
+	_ "github.com/whosonfirst/go-reader-cachereader/v2"
+	
+	"github.com/whosonfirst/go-reader/v2"
 )
 
 func main(){

@@ -3,12 +3,13 @@ package cachereader
 import (
 	"context"
 	"fmt"
-	"github.com/whosonfirst/go-cache"
-	"github.com/whosonfirst/go-ioutil"
-	"github.com/whosonfirst/go-reader"
 	"io"
 	"net/url"
 	"sync"
+
+	"github.com/whosonfirst/go-cache"
+	"github.com/whosonfirst/go-ioutil"
+	"github.com/whosonfirst/go-reader/v2"
 )
 
 // type CacheReaderOptions is a struct for use with the `NewCacheReaderWithOptions` method.
@@ -132,6 +133,21 @@ func NewCacheReaderWithOptions(ctx context.Context, opts *CacheReaderOptions) (r
 	}
 
 	return cr, nil
+}
+
+func (cr *CacheReader) Exists(ctx context.Context, key string) (bool, error) {
+
+	_, err := cr.cache.Get(ctx, key)
+
+	if err == nil {
+		return true, nil
+	}
+
+	if !cache.IsCacheMiss(err) {
+		return false, fmt.Errorf("Failed to read from cache for %s with %T, %w", key, cr.cache, err)
+	}
+
+	return cr.reader.Exists(ctx, key)
 }
 
 // Read returns an `io.ReadSeekCloser` instance for the document resolved by `uri`. The document

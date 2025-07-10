@@ -1,4 +1,4 @@
-module github.com/whosonfirst/go-reader-cachereader
+module github.com/whosonfirst/go-reader-cachereader/v2
 
 go 1.22
 
