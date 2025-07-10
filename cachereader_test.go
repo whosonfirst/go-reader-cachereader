@@ -3,11 +3,12 @@ package cachereader
 import (
 	"context"
 	"fmt"
-	"github.com/whosonfirst/go-reader"
 	"io"
 	"io/ioutil"
 	"path/filepath"
 	"testing"
+
+	"github.com/whosonfirst/go-reader/v2"
 )
 
 func TestCacheReader(t *testing.T) {
@@ -67,6 +68,16 @@ func TestCacheReader(t *testing.T) {
 				if v != CacheHit {
 					t.Fatalf("Expected cache hit after first read of %s", path)
 				}
+			}
+
+			exists, err := r.Exists(ctx, path)
+
+			if err != nil {
+				t.Fatalf("Failed to determine if %s exists, %v", path, err)
+			}
+
+			if !exists {
+				t.Fatalf("Expected %s to exist", path)
 			}
 		}
 

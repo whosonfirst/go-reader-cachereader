@@ -6,9 +6,15 @@ github.com/hashicorp/go-multierror v1.1.1 h1:H5DkEtf6CXdFp0N0Em5UCwQpXMWke8IA0+l
 github.com/hashicorp/go-multierror v1.1.1/go.mod h1:iw975J/qwKPdAO1clOe2L8331t/9/fmwbPZ6JB6eMoM=
 github.com/patrickmn/go-cache v2.1.0+incompatible h1:HRMgzkcYKYpi3C8ajMPV8OFXaaRUnok+kx1WdO15EQc=
 github.com/patrickmn/go-cache v2.1.0+incompatible/go.mod h1:3Qf8kWWT7OJRJbdiICTKqZju1ZixQ/KpMGzzAfe6+WQ=
+github.com/sfomuseum/go-flags v0.10.0 h1:1OC1ACxpWMsl3XQ9OeNVMQj7Zi2CzufP3Rym3mPI8HU=
+github.com/sfomuseum/go-flags v0.10.0/go.mod h1:VXOnnX1/yxQpX2yiwHaBV6aCmhtszQOL5bL1/nNo3co=
 github.com/whosonfirst/go-cache v0.5.3 h1:1onzhg7pFFEDoHdoKPQofNBZtz62cKUv8JSwZ5xePUA=
 github.com/whosonfirst/go-cache v0.5.3/go.mod h1:8y+lZUKB5lbPPGTU8//1OjycyB797Cb5XMC9yuSx1eM=
 github.com/whosonfirst/go-ioutil v1.0.2 h1:+GJPfa42OFn5A+5yJSc5jQTQIkNV3/MhYyg4pavdrC8=
 github.com/whosonfirst/go-ioutil v1.0.2/go.mod h1:2dS1vWdAIkiHDvDF8fYyjv6k2NISmwaIjJJeEDBEdvg=
-github.com/whosonfirst/go-reader v1.0.2 h1:eccnKKSMGR+X1SJyHUZN0/7qE7VbFQULqSVQU0Su3xs=
-github.com/whosonfirst/go-reader v1.0.2/go.mod h1:2w9l/QusYZSiGuEof3RwCHUFnM492SSOF2H7UxS4YIE=
+github.com/whosonfirst/go-reader/v2 v2.0.0 h1:BP6aUQ1HAMCZcp27Lh5XDwzlPXV1quwBF1fajRg0ddo=
+github.com/whosonfirst/go-reader/v2 v2.0.0/go.mod h1:u1q/ZH2EeYDioLYx7544lyVl6WXbal4JRyvk2qpIYsk=
+github.com/whosonfirst/go-whosonfirst-sources v0.1.0 h1:JuKLa6KWke22jBfJ1pM9WQHoz1/3pbDv2C+aR+THPPQ=
+github.com/whosonfirst/go-whosonfirst-sources v0.1.0/go.mod h1:EUMHyGzUmqPPxlMmOp+28BFeoBdxxE0HCKRd67lkqGM=
+github.com/whosonfirst/go-whosonfirst-uri v1.3.0 h1:LYOVLqP9rWQxauYVkdw65j5LZxEi8OK0GHh/qCEpX4g=
+github.com/whosonfirst/go-whosonfirst-uri v1.3.0/go.mod h1:CuVygTCUpMG945MMvqHyqxvc/L5YkDaMrrVpRFr7ZxY=

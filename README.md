@@ -4,7 +4,7 @@ Go package implementing the `whosonfirst/go-reader` interface for use with a cac
 
 ## Documentation
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/whosonfirst/go-reader-cachereader.svg)](https://pkg.go.dev/github.com/whosonfirst/go-reader-cachereader)
+[![Go Reference](https://pkg.go.dev/badge/github.com/whosonfirst/go-reader-cachereader.svg)](https://pkg.go.dev/github.com/whosonfirst/go-reader-cachereader/v2)
 
 ## Example
 
@@ -14,10 +14,12 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/whosonfirst/go-reader"
-	"github.com/whosonfirst/go-reader-cachereader"	
 	"io/ioutil"
 	"log"
+
+	_ "github.com/whosonfirst/go-reader-cachereader/v2"
+	
+	"github.com/whosonfirst/go-reader/v2"
 )
 
 func main(){
