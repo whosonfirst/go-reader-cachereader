@@ -135,6 +135,7 @@ func NewCacheReaderWithOptions(ctx context.Context, opts *CacheReaderOptions) (r
 	return cr, nil
 }
 
+// Exists returns a boolean value indicating whether 'key' already exists.
 func (cr *CacheReader) Exists(ctx context.Context, key string) (bool, error) {
 
 	_, err := cr.cache.Get(ctx, key)

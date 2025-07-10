@@ -5,7 +5,7 @@ import (
 	"log"
 
 	_ "github.com/whosonfirst/go-reader-cachereader/v2"
-	
+
 	"github.com/whosonfirst/go-reader/v2/app/read"
 )
 

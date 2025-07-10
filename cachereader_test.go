@@ -69,6 +69,16 @@ func TestCacheReader(t *testing.T) {
 					t.Fatalf("Expected cache hit after first read of %s", path)
 				}
 			}
+
+			exists, err := r.Exists(ctx, path)
+
+			if err != nil {
+				t.Fatalf("Failed to determine if %s exists, %v", path, err)
+			}
+
+			if !exists {
+				t.Fatalf("Expected %s to exist", path)
+			}
 		}
 
 	}
